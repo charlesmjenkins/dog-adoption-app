@@ -1,0 +1,323 @@
+/*CS361 PROJECT B - DOG ADOPTION APP
+---------------------------------------
+Title: shelterstyle.css
+
+Description: Style for all app pages.
+---------------------------------------*/
+
+/*Fonts - Courtesy of Google Fonts API
+---------------------------------------------------------*/
+@import url(https://fonts.googleapis.com/css?family=Pontano+Sans);
+
+/*Body 
+---------------------------------------------------------*/
+body {
+	font-family: 'Pontano Sans', Arial, Helvetica, sans-serif;
+	background-color: #fff;
+	background-position: top;
+	font-weight: normal;
+	color: #d4d4d4;
+	line-height: 1;
+	margin: 0;
+	font-size: 16pt;
+}
+
+.status {
+	color: #c4f4d4;
+}
+
+#doglogo {
+	position: relative;
+	top: 40px;
+}
+
+/*Content Blocks
+---------------------------------------------------------*/
+#content {
+  position: relative;
+  z-index: 5;
+  background-image: url("../img/i900.png");
+  text-align: center;
+  margin: 0 auto;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-right: 1px;
+  padding-left: 1px;
+  width: 450px;
+  height: 860px;
+}
+
+.centered {
+  background-color: #222;
+  text-align: center;
+  margin: 0 auto;
+  padding: 0px;
+  width: 378px;
+  height: 674px;
+  position: relative;
+  top: 90px;
+  padding-left: 3px;
+  padding-top: 5px;
+}
+
+#titleBar {
+  position: relative;
+  z-index: 6;
+  background-color: #444;
+  text-align: center;
+  margin: 0 auto;
+  width: 100%;
+  height: 25px;
+  position: relative;
+  top: -38px;
+  left: 0px;
+  padding-left: 0px;
+}
+
+#statusTitle{
+	position: relative;
+	top: 5px;
+	left: 4px;
+	text-align: left;
+}
+
+#addListingButton{
+	position: absolute;
+	top: -14px;
+	right: 80px;
+	display: inline;
+	font-family: 'Pontano Sans';
+	font-weight: bold;
+	font-size: 40px;
+	background-color: rgba(255, 255, 255, 0);
+}
+
+#addListing {
+  position: relative;
+  z-index: 8;
+  background-color: rgba(0, 0, 0, 0.9);
+  text-align: center;
+  margin: 0 auto;
+  margin-top: -350px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  width: 100%;
+  border-radius: 10px;
+  visibility: hidden;
+}
+
+#editListing {
+  position: relative;
+  z-index: 8;
+  background-color: rgba(0, 0, 0, 0.9);
+  text-align: center;
+  margin: 0 auto;
+  margin-top: -350px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  width: 100%;
+  border-radius: 10px;
+  visibility: hidden;
+}
+
+#userLogin {
+  position: relative;
+  z-index: 8;
+  background-color: rgba(0, 0, 0, 0.9);
+  text-align: center;
+  margin: 0 auto;
+  margin-top: -350px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  width: 100%;
+  border-radius: 10px;
+  visibility: hidden;
+}
+
+#shelterLogin {
+  position: relative;
+  z-index: 8;
+  background-color: rgba(0, 0, 0, 0.9);
+  text-align: center;
+  margin: 0 auto;
+  margin-top: -180px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  width: 100%;
+  border-radius: 10px;
+  visibility: hidden;
+}
+
+#userLoginBtn {
+	font-size: 16pt;
+	margin-bottom: 50px;
+	margin-top: 50px;
+}
+
+#shelterLoginBtn {
+	font-size: 16pt;
+}
+
+#shelterContents {
+	position: relative;
+	top: -38px;
+	height: 650px;
+	overflow: hidden;
+	background-color: rgba(60, 60, 60, 0.2);
+}
+
+.listedPet {
+	background-image: url("../img/noimage.png");
+	background-repeat: no-repeat;
+	height: 150px;
+	width: 100%;
+}
+
+.bioPet {
+	background-image: url("../img/dogph380.png");
+	background-repeat: no-repeat;
+	position: relative;
+	width: 100%;
+	background-position: center; 
+}
+
+.petThumb {
+	position:relative;
+}
+
+.magicon {
+	position:relative;
+	top: 40px;
+	left: 00px;
+	visibility: hidden;
+	opacity: .5;
+}
+
+#backarrow {
+	position:relative;
+	margin-top: 105px;
+	opacity: .5;
+	z-index: 10;
+	visibility: hidden;
+}
+
+::-webkit-scrollbar { 
+    display: none; 
+}
+
+.nameAndTime {
+	background-color: rgba(0,0,0,.5);
+	position: relative;
+	top: 48px;
+}
+
+.bioInfo {
+	background-color: rgba(0,0,0,.5);
+	position: relative;
+	top: 380px;
+	height: 270px;
+}
+
+.petName {
+	font-weight: bold;
+	font-size: 20pt;
+}
+
+/*Links
+---------------------------------------------------------*/
+a:link {
+	color: #80aB86;
+}
+
+a:hover {
+	color: #b6a4a4;
+}
+
+a:visited {
+	color: #80aB86;
+}
+
+/*Forms
+---------------------------------------------------------*/
+#logoutButton {
+	position: absolute;
+	top: 2px;
+	right: 0px;
+}
+
+#addForm input {
+	margin-bottom: 5px;
+}
+
+#editForm input {
+	margin-bottom: 5px;
+}
+
+.menuBtn {
+	display: inline-block;
+}
+
+.statusTxt {
+	background-color: rgba(0, 0, 0, 0);
+}
+
+input {
+	background-color: #444;
+	border: #FFF;
+	color: #FFF;
+}
+
+input[type="text-area"] {
+	background-color: #444;
+	border: #FFF;
+	color: #FFF;
+}
+
+input[type="text"], input[type="password"], input[type="select"] {
+	width: 250px;
+	text-align: left;
+	font-size: 16pt;
+	margin-bottom: 3px;
+	margin-top: 3px;
+}
+
+input[type="submit"] {
+	background-color: #444;
+	border-style: none;
+	font-size: 12pt;
+}
+
+input[type="submit"]:hover {
+	background-color: #333;
+}
+
+input[type="button"]:hover {
+	background-color: #333;
+}
+
+select {
+	background-color: #444;
+	color: #FFF;
+	border-style: none;
+	font-size: 14pt;
+}
+
+label > input{
+  display:none;
+}
+label > input + img{
+  cursor:pointer;
+  background-color: rgba(200, 200, 200, 0.0);
+}
+label > input + img:hover{
+  background-color: rgba(200, 200, 200, 0.1);
+}
+label > input:checked + img{
+  background-color: rgba(200, 200, 200, 0.3);
+}
+
+#nameAndSubmit {
+	display: none;
+}
+/*END
+---------------------------------------------------------*/
